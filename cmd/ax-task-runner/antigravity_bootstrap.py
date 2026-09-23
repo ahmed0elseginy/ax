@@ -28,6 +28,9 @@ Exits non-zero on failure so the caller can log it; the caller decides whether t
 continue.
 """
 
+import internal.http_session
+import internal.transport
+import internal.session
 import argparse
 import asyncio
 import logging
